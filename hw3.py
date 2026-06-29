@@ -1,7 +1,7 @@
 import decimal
 from typing import Optional
 from sqlalchemy import String, Boolean, create_engine, ForeignKey,Numeric
-from sqlalchemy.orm import Session, declarative_base, Mapped, mapped_column, DeclarativeBase
+from sqlalchemy.orm import Session, Mapped, mapped_column, DeclarativeBase
 
 engine = create_engine('sqlite:///:memory:')
 
